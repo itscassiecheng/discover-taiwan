@@ -14,15 +14,12 @@ const BATCH_SIZE = 100;
 function rowToText(row) {
   return [
     row.Name,
-    row.Zone,
+    row.Orgclass,
     row.Region,
     row.Town,
-    row.Class1,
-    row.Class2,
-    row.Class3,
     row.Keyword,
-    row.Toldescribe,
     row.Description,
+    row.Toldescribe,
   ]
     .filter(Boolean)
     .join(" | ");
