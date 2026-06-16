@@ -1,7 +1,7 @@
 {
-  "name": "uni-converter",
+  "name": "discover-taiwan",
   "version": "0.1.0",
-  "description": "單位換算工具",
+  "description": "台灣景點語意搜尋",
   "type": "module",
   "main": "main.js",
   "scripts": {
